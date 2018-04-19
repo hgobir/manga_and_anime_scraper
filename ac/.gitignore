@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+mal.pkl
+build/
+dist/
+*.swp
+*._swp
+*.bak
+*~
