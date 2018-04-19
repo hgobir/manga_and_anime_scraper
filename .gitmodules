@@ -22,3 +22,21 @@
 [submodule "Kissanime-Download-Links-Grabber"]
 	path = Kissanime-Download-Links-Grabber
 	url = https://github.com/KarthikMAM/Kissanime-Download-Links-Grabber
+[submodule "kissanime-dl"]
+	path = kissanime-dl
+	url = https://github.com/weakit/kissanime-dl
+[submodule "Kissanime-Scraper"]
+	path = Kissanime-Scraper
+	url = https://github.com/lancelot1337/Kissanime-Scraper
+[submodule "kissBypass"]
+	path = kissBypass
+	url = https://github.com/Liumkattan/kissBypass
+[submodule "downloader-kissanime"]
+	path = downloader-kissanime
+	url = https://github.com/wildtron/downloader-kissanime
+[submodule "Easy-KissAnime-API"]
+	path = Easy-KissAnime-API
+	url = https://github.com/ogniK5377/Easy-KissAnime-API
+[submodule "kissmanga-downloader"]
+	path = kissmanga-downloader
+	url = https://github.com/bmzhao/kissmanga-downloader
