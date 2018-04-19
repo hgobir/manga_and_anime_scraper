@@ -1,3 +1,24 @@
 [submodule "cum"]
 	path = cum
 	url = https://github.com/Hamuko/cum
+[submodule "goddess_downloader"]
+	path = goddess_downloader
+	url = https://github.com/salvadorp2001/goddess_downloader
+[submodule "madodl"]
+	path = madodl
+	url = https://github.com/miezak/madodl
+[submodule "nothing_wrong"]
+	path = nothing_wrong
+	url = https://github.com/qqueue/nothing_wrong
+[submodule "Kissanime-LinkDownload"]
+	path = Kissanime-LinkDownload
+	url = https://github.com/Vergo777/Kissanime-LinkDownload
+[submodule "kissanime_dl"]
+	path = kissanime_dl
+	url = https://github.com/wileyyugioh/kissanime_dl
+[submodule "Kissanime-Downloader"]
+	path = Kissanime-Downloader
+	url = https://github.com/Eltion/Kissanime-Downloader
+[submodule "Kissanime-Download-Links-Grabber"]
+	path = Kissanime-Download-Links-Grabber
+	url = https://github.com/KarthikMAM/Kissanime-Download-Links-Grabber
