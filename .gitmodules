@@ -22,3 +22,12 @@
 [submodule "Kissanime-Download-Links-Grabber"]
 	path = Kissanime-Download-Links-Grabber
 	url = https://github.com/KarthikMAM/Kissanime-Download-Links-Grabber
+[submodule "node-anime-scraper"]
+	path = node-anime-scraper
+	url = git@github.com:roflmuffin/node-anime-scraper.git
+[submodule "ac"]
+	path = ac
+	url = git@github.com:skriticos/ac.git
+[submodule "9anime-Scraper"]
+	path = 9anime-Scraper
+	url = git@github.com:jQwotos/9anime-Scraper.git
