@@ -1,0 +1,9 @@
+Packages in python needed for web scrapping include;
+
+- request
+- the beautiful soup
+
+- depending to where you to save data may require further packages but these two seem like the basic ones
+- seems like beautiful soup site has alot of useful documentation it may be worth checking it out
+
+- https://www.youtube.com/watch?v=0_VZ7NpVw1Y = useful youtube video
