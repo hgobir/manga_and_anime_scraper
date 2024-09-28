@@ -4,8 +4,6 @@ from __future__ import with_statement
 import os, getopt, sys
 import ConfigParser
 
-import plistlib
-
 # AniChou
 import globs
 

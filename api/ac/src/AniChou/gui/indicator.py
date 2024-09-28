@@ -115,7 +115,7 @@ class StarIndicator(LevelIndicator):
         dc.SetPen(wx.Pen('#808080', 1))
         for i, shape in enumerate(polygons):
             points = transform.scale(shape, segment, height, not self.expand,
-                *self.DIMENSIONS)
+                                     *self.DIMENSIONS)
             dc.DrawPolygon(points, segment * i, 0)
 
     def OnPaint(self, event):

@@ -18,11 +18,12 @@ from lib.beautifulsoup import BeautifulSoup
 import re
 import urlparse
 from datetime import date, datetime
-import os, time
+import time
 
 from data import mal_anime_data_schema
 from database import db as local_database
-from globs import ac_log_path, ac_data_path
+from globs import ac_log_path
+
 
 class anime_data(object):
     """
