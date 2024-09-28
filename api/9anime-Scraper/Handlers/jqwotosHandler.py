@@ -153,12 +153,12 @@ def main():
                 findNDownload(link, args)
                 logging.info("Finished update, waiting another %i hours until updating." % (args['auto']))
                 # Sleep for the specified amount of time
-                os.chdir("../..")
+                os.chdir("../../..")
             time.sleep(args['auto'] * 3600)
     else:
         for link in links:
             findNDownload(link, args)
-            os.chdir("../..")
+            os.chdir("../../..")
 
 if __name__ == "__main__":
     main()

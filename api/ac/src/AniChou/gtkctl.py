@@ -367,9 +367,9 @@ class list_treeview(gtk.TreeView):
 			if newvalue < maxvalue:
 				# In the completd table
 				if self.tab_id == data.COMPLETED:
-					self.push_change_to_db(row, 
-							{'my_watched_episodes': newvalue, 
-							 'my_status': data.WATCHING })
+					self.push_change_to_db(row,
+                                           {'my_watched_episodes': newvalue,
+							 'my_status': data.WATCHING})
 					self.liststore[row][self.STATUS] = \
 							data.STATUSB[data.WATCHING]
 					MODCTL.tv[data.WATCHING].liststore.append(
@@ -382,8 +382,8 @@ class list_treeview(gtk.TreeView):
 			# Did we reach treashhold and was not completed?
 			if self.tab_id != data.COMPLETED and newvalue == maxvalue:
 				# Send to compted
-				self.push_change_to_db(row, 
-						{'my_watched_episodes': newvalue,
+				self.push_change_to_db(row,
+                                       {'my_watched_episodes': newvalue,
 							'my_status': data.COMPLETED})
 				self.liststore[row][self.STATUS] = \
 						data.STATUSB[data.COMPLETED]
